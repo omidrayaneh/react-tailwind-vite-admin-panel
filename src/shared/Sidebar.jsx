@@ -47,7 +47,7 @@ const Sidebar = () => {
             !open && "scale-0"
           }`}
         >
-          <span>NewApp</span>
+          <span>Admin-Panel</span>
         </h1>
       </div>
 
