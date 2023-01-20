@@ -11,7 +11,7 @@ const Header = () => {
         <div className='bg-white h-16 px-4 flex justify-between items-center border-b border-gray-200'>
             <div className="relative">
                 <HiOutlineSearch fontSize={24} className='text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 ' />
-                <input type="text" placeholder='Search...' className='text-sm h-10 w-[18rem] border border-gray-300 px-4 rounded-sm focus:outline-none active:outline-none pr-11 pl-4 ' />
+                <input type="text" placeholder='Search...' className='w-[10rem] md:w-[18rem] lg:w-[28rem]   text-sm h-10  border border-gray-300 px-4 rounded-sm focus:outline-none active:outline-none pr-11 pl-4 ' />
             </div>
             <div className="flex items-center gap-2 ml-2">
                 <Popover className="relative">

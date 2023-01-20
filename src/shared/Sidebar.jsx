@@ -43,11 +43,11 @@ const Sidebar = () => {
           className={`cursor-pointer duration-500 ${open && "rotate-[360deg]"}`}
         />
         <h1
-          className={`text-white origin-right font-medium text-xl duration-200 ${
+          className={`text-white origin-right font-medium  duration-200 ${
             !open && "scale-0"
           }`}
         >
-          <span>Admin-Panel</span>
+          <span className="text-xs sm:text-sm  lg:text-lg">Admin-Panel</span>
         </h1>
       </div>
 
